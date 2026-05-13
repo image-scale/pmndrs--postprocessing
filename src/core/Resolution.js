@@ -14,8 +14,7 @@ export class Resolution extends EventDispatcher {
 
 		if (resizable !== null) {
 			this.addEventListener("change", () => {
-				this._updateEffectiveSize();
-				resizable.setSize(this._effectiveSize.x, this._effectiveSize.y);
+				resizable.setSize(this._baseSize.x, this._baseSize.y);
 			});
 		}
 	}
