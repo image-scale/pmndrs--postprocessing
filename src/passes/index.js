@@ -14,3 +14,6 @@ export { KawaseBlurPass } from "./KawaseBlurPass.js";
 export { MipmapBlurPass } from "./MipmapBlurPass.js";
 export { TiltShiftBlurPass } from "./TiltShiftBlurPass.js";
 export { DepthPass } from "./DepthPass.js";
+export { DepthCopyPass } from "./DepthCopyPass.js";
+export { DepthPickingPass } from "./DepthPickingPass.js";
+export { NormalPass } from "./NormalPass.js";

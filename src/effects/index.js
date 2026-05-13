@@ -14,3 +14,4 @@ export { ScanlineEffect } from "./ScanlineEffect.js";
 export { PixelationEffect } from "./PixelationEffect.js";
 export { BloomEffect } from "./BloomEffect.js";
 export { SelectiveBloomEffect } from "./SelectiveBloomEffect.js";
+export { DepthEffect } from "./DepthEffect.js";
