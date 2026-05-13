@@ -15,3 +15,4 @@ export { PixelationEffect } from "./PixelationEffect.js";
 export { BloomEffect } from "./BloomEffect.js";
 export { SelectiveBloomEffect } from "./SelectiveBloomEffect.js";
 export { DepthEffect } from "./DepthEffect.js";
+export { ToneMappingEffect } from "./ToneMappingEffect.js";

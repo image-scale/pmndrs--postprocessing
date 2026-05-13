@@ -9,3 +9,4 @@ export { UpsamplingMaterial } from "./UpsamplingMaterial.js";
 export { TiltShiftBlurMaterial } from "./TiltShiftBlurMaterial.js";
 export { DepthMaskMaterial } from "./DepthMaskMaterial.js";
 export { DepthCopyMaterial } from "./DepthCopyMaterial.js";
+export { AdaptiveLuminanceMaterial } from "./AdaptiveLuminanceMaterial.js";
