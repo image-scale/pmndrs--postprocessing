@@ -1,2 +1,8 @@
 export { Pass } from "./Pass.js";
 export { FrameCopyPass } from "./FrameCopyPass.js";
+export { BufferClearPass } from "./BufferClearPass.js";
+export { StencilClearPass } from "./StencilClearPass.js";
+export { SceneRenderPass } from "./SceneRenderPass.js";
+export { MaterialPass } from "./MaterialPass.js";
+export { CallbackPass } from "./CallbackPass.js";
+export { StencilMaskPass } from "./StencilMaskPass.js";
