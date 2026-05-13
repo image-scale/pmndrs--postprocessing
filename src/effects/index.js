@@ -16,3 +16,4 @@ export { BloomEffect } from "./BloomEffect.js";
 export { SelectiveBloomEffect } from "./SelectiveBloomEffect.js";
 export { DepthEffect } from "./DepthEffect.js";
 export { ToneMappingEffect } from "./ToneMappingEffect.js";
+export { TextureEffect } from "./TextureEffect.js";
