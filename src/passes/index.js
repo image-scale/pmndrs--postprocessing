@@ -13,3 +13,4 @@ export { GaussianBlurPass } from "./GaussianBlurPass.js";
 export { KawaseBlurPass } from "./KawaseBlurPass.js";
 export { MipmapBlurPass } from "./MipmapBlurPass.js";
 export { TiltShiftBlurPass } from "./TiltShiftBlurPass.js";
+export { DepthPass } from "./DepthPass.js";

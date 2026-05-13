@@ -12,3 +12,5 @@ export { DotScreenEffect } from "./DotScreenEffect.js";
 export { GridEffect } from "./GridEffect.js";
 export { ScanlineEffect } from "./ScanlineEffect.js";
 export { PixelationEffect } from "./PixelationEffect.js";
+export { BloomEffect } from "./BloomEffect.js";
+export { SelectiveBloomEffect } from "./SelectiveBloomEffect.js";
