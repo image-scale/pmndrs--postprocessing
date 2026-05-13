@@ -8,3 +8,8 @@ export { CallbackPass } from "./CallbackPass.js";
 export { StencilMaskPass } from "./StencilMaskPass.js";
 export { BrightnessPass } from "./BrightnessPass.js";
 export { EffectPass } from "./EffectPass.js";
+export { BoxBlurPass } from "./BoxBlurPass.js";
+export { GaussianBlurPass } from "./GaussianBlurPass.js";
+export { KawaseBlurPass } from "./KawaseBlurPass.js";
+export { MipmapBlurPass } from "./MipmapBlurPass.js";
+export { TiltShiftBlurPass } from "./TiltShiftBlurPass.js";

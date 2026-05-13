@@ -1,3 +1,9 @@
 export { FrameCopyMaterial } from "./FrameCopyMaterial.js";
 export { BrightnessMaterial } from "./BrightnessMaterial.js";
 export { CompoundMaterial } from "./CompoundMaterial.js";
+export { BoxBlurMaterial } from "./BoxBlurMaterial.js";
+export { GaussianBlurMaterial } from "./GaussianBlurMaterial.js";
+export { KawaseBlurMaterial } from "./KawaseBlurMaterial.js";
+export { DownsamplingMaterial } from "./DownsamplingMaterial.js";
+export { UpsamplingMaterial } from "./UpsamplingMaterial.js";
+export { TiltShiftBlurMaterial } from "./TiltShiftBlurMaterial.js";
