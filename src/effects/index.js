@@ -23,3 +23,5 @@ export { GlitchEffect } from "./GlitchEffect.js";
 export { ShockWaveEffect } from "./ShockWaveEffect.js";
 export { FXAAEffect } from "./FXAAEffect.js";
 export { ASCIIEffect } from "./ASCIIEffect.js";
+export { OutlineEffect } from "./OutlineEffect.js";
+export { SSAOEffect } from "./SSAOEffect.js";

@@ -10,3 +10,7 @@ export { TiltShiftBlurMaterial } from "./TiltShiftBlurMaterial.js";
 export { DepthMaskMaterial } from "./DepthMaskMaterial.js";
 export { DepthCopyMaterial } from "./DepthCopyMaterial.js";
 export { AdaptiveLuminanceMaterial } from "./AdaptiveLuminanceMaterial.js";
+export { OutlineEdgeMaterial } from "./OutlineEdgeMaterial.js";
+export { DepthComparisonMaterial } from "./DepthComparisonMaterial.js";
+export { SSAOMaterial } from "./SSAOMaterial.js";
+export { DepthDownsamplingMaterial } from "./DepthDownsamplingMaterial.js";

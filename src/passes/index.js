@@ -18,3 +18,4 @@ export { DepthCopyPass } from "./DepthCopyPass.js";
 export { DepthPickingPass } from "./DepthPickingPass.js";
 export { NormalPass } from "./NormalPass.js";
 export { AdaptiveLuminancePass } from "./AdaptiveLuminancePass.js";
+export { DepthDownsamplingPass } from "./DepthDownsamplingPass.js";
