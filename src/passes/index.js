@@ -7,3 +7,4 @@ export { MaterialPass } from "./MaterialPass.js";
 export { CallbackPass } from "./CallbackPass.js";
 export { StencilMaskPass } from "./StencilMaskPass.js";
 export { BrightnessPass } from "./BrightnessPass.js";
+export { EffectPass } from "./EffectPass.js";
