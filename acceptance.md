@@ -18,4 +18,24 @@
 - [ ] EffectComposer.render() iterates enabled passes, swaps buffers on needsSwap
 - [ ] EffectComposer.setSize() resizes renderer, buffers, and all passes
 - [ ] EffectComposer.dispose() cleans up all passes and buffers
-- [ ] All classes are properly exported from a main index module
+- [x] All classes are properly exported from a main index module
+
+## Task 2: Resolution manager and Selection set
+
+### Acceptance Criteria
+- [ ] Resolution can be instantiated with null resizable, auto-size width/height, and default scale 1.0
+- [ ] Resolution tracks base dimensions (baseWidth/baseHeight) via setBaseSize
+- [ ] Resolution computes effective size using scale when both preferred dimensions are AUTO_SIZE (-1)
+- [ ] Resolution computes effective size directly when both preferred dimensions are set explicitly
+- [ ] Resolution computes missing dimension from aspect ratio when only one preferred dimension is set
+- [ ] Resolution dispatches "change" events when base size, preferred size, or scale changes
+- [ ] Resolution calls resizable.setSize when change event fires (if resizable is provided)
+- [ ] Resolution.AUTO_SIZE is a static constant equal to -1
+- [ ] Selection can be instantiated and extends Set
+- [ ] Selection manages render layer assignment (auto-incrementing from layer 2)
+- [ ] Selection.add() enables the assigned layer on added three.js objects
+- [ ] Selection.delete() disables the assigned layer on removed objects
+- [ ] Selection.toggle() adds if not present, removes if present
+- [ ] Selection.clear() disables layer on all objects and clears the set
+- [ ] Selection supports exclusive mode where add uses layers.set() instead of layers.enable()
+- [ ] Selection.setVisible() toggles layer 0 on all selected objects
